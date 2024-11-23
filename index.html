@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<h1 class="header">
+  Cyteract
+  <img src="cyteract.png" class="img">
+</h1>
+<body>
+  <div class="container">
+    
+    <div class="para">
+      <p class="child">
+          <b>Printable Notebooks</b><br><br>
+          A Printable Notebook is a customizable and eco-friendly solution for your note-taking needs.
+           By choosing a Printable Notebook, you'll enjoy the flexibility to print only the pages you need, 
+           whether they're lined, grid, dotted, or blank templates. 
+          This personalization ensures that your notebook perfectly suits your specific requirements, 
+          whether for work, study, or creative projects.<br><br>
+          <b>Features</b><br><br>
+          1. Customization: Tailor your notebook to your needs by selecting from various page templates.<br>
+          2. Eco-Friendly: Reduce paper waste by printing on demand.<br>
+          3. Convenience: Print pages at home or work, 
+          ensuring you never run out of the types of pages you prefer.<br><br>
+  
+          <b>What You Get:</b><br><br>
+  
+          1. A downloadable file containing multiple page templates.<br><br>
+  
+          2. Instant access to print as many copies as needed.<br><br>
+  
+          3. Various designs to choose from, catering to different tastes and needs.<br><br>
+  
+          4. The flexibility to organize and bind the pages in your preferred format.<br><br>
+  
+          By downloading a Printable Notebook, 
+          you interact in a versatile and sustainable tool that enhances productivity and 
+          creativity while allowing you to maintain a personal touch in your note-taking process.<br><br>
+
+          <img src="notebook.02.png" class="img3"><br>
+          <a class="aphoto" href="https://www.mediafire.com/folder/vufimudez4xu8/PrintableNoteBooks" 
+          target="_blank"><b>Download</b></a><br><br>
+
+          <img src="notebook.jpg" class="img3" width="100px"><br>
+          <a class="aphoto" href="https://www.mediafire.com/folder/tzcjnrzr7o2d9/PrintableNoteBooks02" 
+          target="_blank"><b>Download</b></a>
+      </p>
+      </div>
+      
+    
+    <div class="menu_icon_box">
+        <h3>Menu</h3>
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+      
+      
+    </div>
+    
+    
+    
+    <div class="box">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Interaction</a></li>
+          <li><a href="#">Printable Items</a></li>
+          <li><a href="#">Ebooks</a></li>
+          <li><a href="#">Shopping</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">Recipes</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+    
+  </div>  
+</body>
+<script>
+  let menu_icon_box = document.querySelector(".menu_icon_box");
+  let box = document.querySelector(".box");
+
+  menu_icon_box.onclick = function(){
+    menu_icon_box.classList.toggle("active");
+    box.classList.toggle("active");
+  }
+  
+  document.onclick = function(e){
+    if (!menu_icon_box.contains(e.target) && !box.contains(e.target)){
+    menu_icon_box.classList.remove("active");
+    box.classList.remove("active"); 
+  }
+ }
+
+
+</script>
+
+
+</html>
