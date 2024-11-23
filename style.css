@@ -20,7 +20,7 @@
   left: -500px;
   pointer-events: none;
   transition: 0.3s;
-  margin-top: -800px;
+  margin-top: -950px;
 }
 .active.box{
  opacity: 1;
@@ -37,7 +37,7 @@
   margin: 30px;
   position: fixed;
   cursor: pointer;
-  margin-top: -800px;
+  margin-top: -950px;
 }
 
 .line1 , .line2, .line3{
@@ -102,7 +102,7 @@ nav ul li a{
   position: none;
   font-family: monospace;
   margin-top: 50px;
-  font-size: 14px;
+  font-size: 18px;
   text-align: left;
   margin-left: 14px;
   margin-right: 14px;
